@@ -51,7 +51,7 @@ capHeight = 700;
 customParameters = (
 {
 name = hheaAscender;
-value = 700;
+value = 1200;
 },
 {
 name = hheaDescender;
@@ -79,7 +79,7 @@ value = -50;
 },
 {
 name = winAscent;
-value = 700;
+value = 710;
 },
 {
 name = winDescent;
