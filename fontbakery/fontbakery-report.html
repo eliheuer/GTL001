@@ -73,39 +73,29 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>9</td>
+                <td>4</td>
+                <td>5</td>
+                <td>120</td>
                 <td>7</td>
-                <td>123</td>
-                <td>7</td>
-                <td>89</td>
+                <td>99</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>5%</td>
-                <td>4%</td>
+                <td>2%</td>
+                <td>3%</td>
                 <td>69%</td>
                 <td>4%</td>
-                <td>50%</td>
+                <td>57%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
-<h3>Checking OS/2 fsType does not impose restrictions.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fstype&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead. [code: drm]</p>
-</span></li></ul></div></details>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Check Google Fonts glyph coverage.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
 
 <details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
-<pre><code>- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x2026 (HORIZONTAL ELLIPSIS)
+<pre><code>- 0x2026 (HORIZONTAL ELLIPSIS)
 
 
 - 0x002A (ASTERISK)
@@ -132,19 +122,12 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x005D (RIGHT SQUARE BRACKET)
 
 
-- And 245 more.
+- 0x201C (LEFT DOUBLE QUOTATION MARK)
+
+
+- And 244 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
-</span></li></ul></div></details>
-<h3>Check copyright namerecords match license file.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name GTL001. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
-</span></li></ul></div></details>
-<h3>Version format is correct in 'name' table?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/version_format&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.001; ttfautohint (v1.8.4.7-5d5b)&quot; [code: bad-version-strings]</p>
 </span></li></ul></div></details>
 <h3>Copyright notices match canonical pattern in fonts</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
@@ -153,44 +136,29 @@ The font may be embedded but must only be installed temporarily on other systems
 But instead we have got:
 &quot;Copyright 2022 Eli Heuer (https://github.com/eliheuer/GTL001)&quot; [code: bad-notice-format]</p>
 </span></li></ul></div></details>
-<h3>Name table strings must not contain the string 'Reserved Font Name'.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/rfn&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Name table entry contains &quot;Reserved Font Name&quot; for a family name (GTL001. This license is available with a FAQ at: https://scripts.sil) that differs from the currently used family name (GTL001), which is fine. [code: legacy-familyname]</p>
-</span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.sTypoLineGap is &quot;300&quot; it should be 0 [code: bad-OS/2.sTypoLineGap]</p>
-</span></li></ul></div></details>
-<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/GTL001-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 900 when it should be at least 1200 [code: bad-hhea-range]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
-<h3>Checking OS/2 Metrics match hhea Metrics.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
+<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (700) and hhea ascent (1000) must be equal. [code: ascender]</p>
-</span></li></ul></div></details>
-<h3>Font contains glyphs for whitespace characters?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphs&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 710, but got 700 instead [code: ascent]</p>
 </span></li></ul></div></details>
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- NULL 
+<pre><code>- CR 
 
-- And CR
+- And NULL
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -223,12 +191,6 @@ But instead we have got:
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.hhea&gt; ⚠️</h2>
-<h3>Checking Vertical Metric Linegaps.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
