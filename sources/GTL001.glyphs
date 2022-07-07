@@ -1,20 +1,38 @@
 {
 .appVersion = "3133";
 DisplayStrings = (
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ/space/space \012",
-D,
-"CanAva/space is/space an/space online/space graphic/space design/space platform,/space providing/space design/space tools/space and/space access/space to/space a/space vast/space library/space of/space ingredients/space for/space its/space users/space to/space create/space content./space LEveraging/space GPU-accelerated/space machine/space learning/space (ML)/space within/space our/space graphic/space design/space platform/space has/space allowed/space us/space to/space offer/space simple/space but/space powerful/space product/space features/space to/space users./space",
-H
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ/space/space \012"
 );
 copyright = "Copyright 2022 Eli Heuer (https://github.com/eliheuer/GTL001)";
 customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
+value = 0;
+},
 {
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name GTL001. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
@@ -30,6 +48,44 @@ fontMaster = (
 {
 ascender = 700;
 capHeight = 700;
+customParameters = (
+{
+name = hheaAscender;
+value = 700;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 700;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -50;
+},
+{
+name = winAscent;
+value = 700;
+},
+{
+name = winDescent;
+value = 200;
+}
+);
 descender = -200;
 id = master01;
 xHeight = 500;
@@ -39,7 +95,6 @@ glyphs = (
 {
 color = 5;
 glyphname = A;
-lastChange = "2022-07-07 02:37:20 +0000";
 layers = (
 {
 layerId = master01;
@@ -102,7 +157,6 @@ unicode = 0041;
 {
 color = 5;
 glyphname = B;
-lastChange = "2022-07-06 22:44:41 +0000";
 layers = (
 {
 layerId = master01;
@@ -157,7 +211,6 @@ unicode = 0042;
 {
 color = 5;
 glyphname = C;
-lastChange = "2022-07-07 02:37:43 +0000";
 layers = (
 {
 layerId = master01;
@@ -195,7 +248,6 @@ unicode = 0043;
 {
 color = 5;
 glyphname = D;
-lastChange = "2022-07-07 02:31:32 +0000";
 layers = (
 {
 layerId = master01;
@@ -235,7 +287,6 @@ unicode = 0044;
 {
 color = 5;
 glyphname = E;
-lastChange = "2022-07-07 04:01:37 +0000";
 layers = (
 {
 layerId = master01;
@@ -280,7 +331,6 @@ unicode = 0045;
 {
 color = 5;
 glyphname = F;
-lastChange = "2022-07-07 04:02:12 +0000";
 layers = (
 {
 layerId = master01;
@@ -321,7 +371,6 @@ unicode = 0046;
 {
 color = 5;
 glyphname = G;
-lastChange = "2022-07-07 04:08:11 +0000";
 layers = (
 {
 layerId = master01;
@@ -363,7 +412,6 @@ unicode = 0047;
 {
 color = 5;
 glyphname = H;
-lastChange = "2022-07-07 04:08:44 +0000";
 layers = (
 {
 layerId = master01;
@@ -408,7 +456,6 @@ unicode = 0048;
 {
 color = 5;
 glyphname = I;
-lastChange = "2022-07-06 05:34:07 +0000";
 layers = (
 {
 layerId = master01;
@@ -451,7 +498,6 @@ unicode = 0049;
 {
 color = 5;
 glyphname = J;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -489,7 +535,6 @@ unicode = 004A;
 {
 color = 5;
 glyphname = K;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -521,7 +566,6 @@ unicode = 004B;
 {
 color = 5;
 glyphname = L;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -546,7 +590,6 @@ unicode = 004C;
 {
 color = 5;
 glyphname = M;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -578,7 +621,6 @@ unicode = 004D;
 {
 color = 5;
 glyphname = N;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -607,7 +649,6 @@ unicode = 004E;
 {
 color = 5;
 glyphname = O;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -638,7 +679,6 @@ unicode = 004F;
 {
 color = 5;
 glyphname = P;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -671,7 +711,6 @@ unicode = 0050;
 {
 color = 5;
 glyphname = Q;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -704,7 +743,6 @@ unicode = 0051;
 {
 color = 5;
 glyphname = R;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -741,7 +779,6 @@ unicode = 0052;
 {
 color = 5;
 glyphname = S;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -780,7 +817,6 @@ unicode = 0053;
 {
 color = 5;
 glyphname = T;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -807,7 +843,6 @@ unicode = 0054;
 {
 color = 5;
 glyphname = U;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -839,7 +874,6 @@ unicode = 0055;
 {
 color = 5;
 glyphname = V;
-lastChange = "2022-07-06 01:55:46 +0000";
 layers = (
 {
 layerId = master01;
@@ -867,7 +901,6 @@ unicode = 0056;
 {
 color = 5;
 glyphname = W;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -899,7 +932,6 @@ unicode = 0057;
 {
 color = 5;
 glyphname = X;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -932,7 +964,6 @@ unicode = 0058;
 {
 color = 5;
 glyphname = Y;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -961,7 +992,6 @@ unicode = 0059;
 {
 color = 5;
 glyphname = Z;
-lastChange = "2022-07-05 05:38:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -988,7 +1018,6 @@ unicode = 005A;
 {
 color = 4;
 glyphname = a;
-lastChange = "2022-07-07 03:07:07 +0000";
 layers = (
 {
 components = (
@@ -1007,7 +1036,6 @@ unicode = 0061;
 {
 color = 4;
 glyphname = b;
-lastChange = "2022-07-07 02:34:29 +0000";
 layers = (
 {
 components = (
@@ -1024,7 +1052,6 @@ unicode = 0062;
 {
 color = 4;
 glyphname = c;
-lastChange = "2022-07-07 02:34:29 +0000";
 layers = (
 {
 components = (
@@ -1041,7 +1068,6 @@ unicode = 0063;
 {
 color = 4;
 glyphname = d;
-lastChange = "2022-07-07 02:34:29 +0000";
 layers = (
 {
 components = (
@@ -1058,7 +1084,6 @@ unicode = 0064;
 {
 color = 5;
 glyphname = eth;
-lastChange = "2022-07-07 04:12:28 +0000";
 layers = (
 {
 layerId = master01;
@@ -1070,7 +1095,6 @@ unicode = 00F0;
 {
 color = 4;
 glyphname = e;
-lastChange = "2022-07-07 04:01:44 +0000";
 layers = (
 {
 components = (
@@ -1087,7 +1111,6 @@ unicode = 0065;
 {
 color = 4;
 glyphname = f;
-lastChange = "2022-07-07 02:35:54 +0000";
 layers = (
 {
 components = (
@@ -1104,7 +1127,6 @@ unicode = 0066;
 {
 color = 4;
 glyphname = g;
-lastChange = "2022-07-07 02:34:29 +0000";
 layers = (
 {
 components = (
@@ -1121,7 +1143,6 @@ unicode = 0067;
 {
 color = 4;
 glyphname = h;
-lastChange = "2022-07-07 02:34:29 +0000";
 layers = (
 {
 components = (
@@ -1138,7 +1159,6 @@ unicode = 0068;
 {
 color = 4;
 glyphname = i;
-lastChange = "2022-07-07 02:34:29 +0000";
 layers = (
 {
 components = (
@@ -1155,7 +1175,6 @@ unicode = 0069;
 {
 color = 4;
 glyphname = j;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1172,7 +1191,6 @@ unicode = 006A;
 {
 color = 4;
 glyphname = k;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1189,7 +1207,6 @@ unicode = 006B;
 {
 color = 4;
 glyphname = l;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1206,7 +1223,6 @@ unicode = 006C;
 {
 color = 4;
 glyphname = m;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1223,7 +1239,6 @@ unicode = 006D;
 {
 color = 4;
 glyphname = n;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1240,7 +1255,6 @@ unicode = 006E;
 {
 color = 4;
 glyphname = o;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1257,7 +1271,6 @@ unicode = 006F;
 {
 color = 4;
 glyphname = p;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1274,7 +1287,6 @@ unicode = 0070;
 {
 color = 4;
 glyphname = q;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1291,7 +1303,6 @@ unicode = 0071;
 {
 color = 4;
 glyphname = r;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1308,7 +1319,6 @@ unicode = 0072;
 {
 color = 4;
 glyphname = s;
-lastChange = "2022-07-07 03:09:10 +0000";
 layers = (
 {
 components = (
@@ -1327,7 +1337,6 @@ unicode = 0073;
 {
 color = 4;
 glyphname = t;
-lastChange = "2022-07-07 03:09:16 +0000";
 layers = (
 {
 components = (
@@ -1346,7 +1355,6 @@ unicode = 0074;
 {
 color = 4;
 glyphname = u;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1363,7 +1371,6 @@ unicode = 0075;
 {
 color = 4;
 glyphname = v;
-lastChange = "2022-07-07 02:37:26 +0000";
 layers = (
 {
 components = (
@@ -1382,7 +1389,6 @@ unicode = 0076;
 {
 color = 4;
 glyphname = w;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1399,7 +1405,6 @@ unicode = 0077;
 {
 color = 4;
 glyphname = x;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1416,7 +1421,6 @@ unicode = 0078;
 {
 color = 4;
 glyphname = y;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1433,7 +1437,6 @@ unicode = 0079;
 {
 color = 4;
 glyphname = z;
-lastChange = "2022-07-06 01:10:25 +0000";
 layers = (
 {
 components = (
@@ -1450,7 +1453,6 @@ unicode = 007A;
 {
 color = 5;
 glyphname = zero;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1488,7 +1490,6 @@ unicode = 0030;
 {
 color = 5;
 glyphname = one;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1513,7 +1514,6 @@ unicode = 0031;
 {
 color = 5;
 glyphname = two;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1546,7 +1546,6 @@ unicode = 0032;
 {
 color = 5;
 glyphname = three;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1590,7 +1589,6 @@ unicode = 0033;
 {
 color = 5;
 glyphname = four;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1619,7 +1617,6 @@ unicode = 0034;
 {
 color = 5;
 glyphname = five;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1655,7 +1652,6 @@ unicode = 0035;
 {
 color = 5;
 glyphname = six;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1690,7 +1686,6 @@ unicode = 0036;
 {
 color = 5;
 glyphname = seven;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1715,7 +1710,6 @@ unicode = 0037;
 {
 color = 5;
 glyphname = eight;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1760,7 +1754,6 @@ unicode = 0038;
 {
 color = 5;
 glyphname = nine;
-lastChange = "2022-07-07 03:16:54 +0000";
 layers = (
 {
 layerId = master01;
@@ -1794,7 +1787,6 @@ unicode = 0039;
 {
 color = 11;
 glyphname = CR;
-lastChange = "2022-07-07 04:12:14 +0000";
 layers = (
 {
 layerId = master01;
@@ -1805,7 +1797,6 @@ width = 0;
 {
 color = 11;
 glyphname = NULL;
-lastChange = "2022-07-07 04:12:14 +0000";
 layers = (
 {
 layerId = master01;
@@ -1816,7 +1807,6 @@ width = 0;
 {
 color = 11;
 glyphname = space;
-lastChange = "2022-07-07 04:12:14 +0000";
 layers = (
 {
 layerId = master01;
@@ -1826,9 +1816,19 @@ width = 300;
 unicode = 0020;
 },
 {
+color = 11;
+glyphname = nbspace;
+layers = (
+{
+layerId = master01;
+width = 300;
+}
+);
+unicode = 00A0;
+},
+{
 color = 5;
 glyphname = period;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -1859,7 +1859,6 @@ unicode = 002E;
 {
 color = 5;
 glyphname = comma;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -1892,7 +1891,6 @@ unicode = 002C;
 {
 color = 5;
 glyphname = colon;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -1940,7 +1938,6 @@ unicode = 003A;
 {
 color = 5;
 glyphname = semicolon;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -1990,7 +1987,6 @@ unicode = 003B;
 {
 color = 5;
 glyphname = exclam;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2039,7 +2035,6 @@ unicode = 0021;
 {
 color = 5;
 glyphname = question;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2087,7 +2082,6 @@ unicode = 003F;
 {
 color = 5;
 glyphname = hyphen;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2110,7 +2104,6 @@ unicode = 002D;
 {
 color = 5;
 glyphname = endash;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2133,7 +2126,6 @@ unicode = 2013;
 {
 color = 5;
 glyphname = emdash;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2156,7 +2148,6 @@ unicode = 2014;
 {
 color = 5;
 glyphname = parenleft;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2182,7 +2173,6 @@ unicode = 0028;
 {
 color = 5;
 glyphname = parenright;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2208,7 +2198,6 @@ unicode = 0029;
 {
 color = 5;
 glyphname = ampersand;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2251,7 +2240,6 @@ unicode = 0026;
 {
 color = 5;
 glyphname = dollar;
-lastChange = "2022-07-07 04:12:24 +0000";
 layers = (
 {
 layerId = master01;
@@ -2381,6 +2369,6 @@ unitsPerEm = 1000;
 userData = {
 UFOFormat = 3;
 };
-versionMajor = 0;
-versionMinor = 1;
+versionMajor = 1;
+versionMinor = 0;
 }
