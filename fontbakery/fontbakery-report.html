@@ -125,7 +125,7 @@
 - 0x201C (LEFT DOUBLE QUOTATION MARK)
 
 
-- And 244 more.
+- And 245 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
 </span></li></ul></div></details>
@@ -182,7 +182,7 @@ But instead we have got:
 
 - Glyph name: e	Contours detected: 1	Expected: 2 
 
-- And 24 more.
+- And 22 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
@@ -193,8 +193,6 @@ But instead we have got:
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
 <pre><code>* ampersand (U+0026): X=239.0,Y=-2.0 (should be at baseline 0?)
-
-* M (U+004D): X=535.0,Y=1.0 (should be at baseline 0?)
 
 * T (U+0054): X=445.0,Y=699.0 (should be at cap-height 700?)
 
@@ -210,9 +208,11 @@ But instead we have got:
 
 * X (U+0058): X=594.0,Y=-2.0 (should be at baseline 0?)
 
-* m (U+006D): X=535.0,Y=1.0 (should be at baseline 0?) 
+* t (U+0074): X=445.0,Y=699.0 (should be at cap-height 700?)
 
-* And 7 more.
+* t (U+0074): X=445.0,Y=699.0 (should be at ascender 700?) 
+
+* And 5 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
 </span></li></ul></div></details>
@@ -220,11 +220,9 @@ But instead we have got:
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* B (U+0042): L&lt;&lt;9.0,10.0&gt;--&lt;10.0,340.0&gt;&gt;
+<pre><code>* B (U+0042): L&lt;&lt;15.0,10.0&gt;--&lt;16.0,340.0&gt;&gt;
 
 * G (U+0047): L&lt;&lt;351.0,352.0&gt;--&lt;660.0,350.0&gt;&gt;
-
-* M (U+004D): L&lt;&lt;765.0,0.0&gt;--&lt;535.0,1.0&gt;&gt;
 
 * T (U+0054): L&lt;&lt;15.0,700.0&gt;--&lt;445.0,699.0&gt;&gt;
 
@@ -236,11 +234,13 @@ But instead we have got:
 
 * ampersand (U+0026): L&lt;&lt;590.0,0.0&gt;--&lt;239.0,-2.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;9.0,10.0&gt;--&lt;10.0,340.0&gt;&gt;
+* b (U+0062): L&lt;&lt;15.0,10.0&gt;--&lt;16.0,340.0&gt;&gt;
 
-* g (U+0067): L&lt;&lt;351.0,352.0&gt;--&lt;660.0,350.0&gt;&gt; 
+* g (U+0067): L&lt;&lt;351.0,352.0&gt;--&lt;660.0,350.0&gt;&gt;
 
-* And 6 more.
+* t (U+0074): L&lt;&lt;15.0,700.0&gt;--&lt;445.0,699.0&gt;&gt; 
+
+* And 4 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
 </span></li></ul></div></details>

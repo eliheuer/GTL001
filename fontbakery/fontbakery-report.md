@@ -37,7 +37,7 @@ Fontbakery version: 0.8.9
 	- 0x201C (LEFT DOUBLE QUOTATION MARK)
  
 
-	- And 244 more.
+	- And 245 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
@@ -90,7 +90,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: e	Contours detected: 1	Expected: 2 
 
-	- And 24 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -100,8 +100,6 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
 	* ampersand (U+0026): X=239.0,Y=-2.0 (should be at baseline 0?)
-
-	* M (U+004D): X=535.0,Y=1.0 (should be at baseline 0?)
 
 	* T (U+0054): X=445.0,Y=699.0 (should be at cap-height 700?)
 
@@ -117,9 +115,11 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* X (U+0058): X=594.0,Y=-2.0 (should be at baseline 0?)
 
-	* m (U+006D): X=535.0,Y=1.0 (should be at baseline 0?) 
+	* t (U+0074): X=445.0,Y=699.0 (should be at cap-height 700?)
 
-	* And 7 more.
+	* t (U+0074): X=445.0,Y=699.0 (should be at ascender 700?) 
+
+	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -127,11 +127,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* B (U+0042): L<<9.0,10.0>--<10.0,340.0>>
+	* B (U+0042): L<<15.0,10.0>--<16.0,340.0>>
 
 	* G (U+0047): L<<351.0,352.0>--<660.0,350.0>>
-
-	* M (U+004D): L<<765.0,0.0>--<535.0,1.0>>
 
 	* T (U+0054): L<<15.0,700.0>--<445.0,699.0>>
 
@@ -143,11 +141,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ampersand (U+0026): L<<590.0,0.0>--<239.0,-2.0>>
 
-	* b (U+0062): L<<9.0,10.0>--<10.0,340.0>>
+	* b (U+0062): L<<15.0,10.0>--<16.0,340.0>>
 
-	* g (U+0067): L<<351.0,352.0>--<660.0,350.0>> 
+	* g (U+0067): L<<351.0,352.0>--<660.0,350.0>>
 
-	* And 6 more.
+	* t (U+0074): L<<15.0,700.0>--<445.0,699.0>> 
+
+	* And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
