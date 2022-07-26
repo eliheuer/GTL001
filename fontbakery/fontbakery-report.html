@@ -73,15 +73,15 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>4</td>
+                <td>5</td>
                 <td>5</td>
                 <td>120</td>
                 <td>7</td>
-                <td>99</td>
+                <td>98</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>2%</td>
+                <td>3%</td>
                 <td>3%</td>
                 <td>68%</td>
                 <td>4%</td>
@@ -90,7 +90,7 @@
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Check Google Fonts glyph coverage.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
 
@@ -129,6 +129,14 @@
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
 </span></li></ul></div></details>
+<h3>Check license file has good copyright string.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/license/OFL_copyright&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file is:</p>
+<p>&quot;copyright 2022 eli heuer (https://github.com/eliheuer/gtl001)&quot;</p>
+<p>which does not match the expected format, similar to:</p>
+<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
 <h3>Copyright notices match canonical pattern in fonts</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
 
@@ -151,9 +159,9 @@ But instead we have got:
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- CR 
+<pre><code>- NULL 
 
-- And NULL
+- And CR
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
