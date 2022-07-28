@@ -1,17 +1,4 @@
-# My Font
-
-[![][Fontbakery]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
-[![][Universal]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FUniversal.json
-
+# GTL001
 
 ![Sample Image](documentation/Alpha-NFT.png)
 
@@ -37,15 +24,27 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+**27 July 2022. Version 0.1**
+- Repo setup and drawing.
 
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at
 https://scripts.sil.org/OFL
+
+## Google Fonts QA
+[![][Fontbakery]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
+[![][Universal]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL001%2Fgh-pages%2Fbadges%2FUniversal.json
 
 ## Repository Layout
 
