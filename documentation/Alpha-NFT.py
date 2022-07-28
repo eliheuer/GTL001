@@ -15,17 +15,21 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/Hasubi-Mono[wght].ttf"
-FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "fonts/Hasubi-Mono[wght].ttf"
+WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 256, 1
+FONT_PATH = "documentation/specimen_fonts/GTL001-Regular.ttf"
+FONT_LICENSE = "OFLv1.1"
+AUXILIARY_FONT = "documentation/specimen_fonts/Hasubi-Mono[wght].ttf"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT_A = "ABCDEFGHIJKLMNOPQRST"
-BIG_TEXT_B = "UVWXYZ abcdefghijklm"
-BIG_TEXT_C = "nopqrstuvwxyz 012345"
-BIG_TEXT_FONT_SIZE = 1024/5.85
+BIG_TEXT_A = "ABCDEFGHIJK"
+BIG_TEXT_B = "LMNOPQRSTU"
+BIG_TEXT_C = "VWXYZ"
+BIG_TEXT_D = "1234567890"
+BIG_TEXT_E = "(.,;:)-–—&!?"
+BIG_TEXT_F = "GTL-1 32-TEETH"
+BIG_TEXT_G = "3D-RENDER512"
+BIG_TEXT_FONT_SIZE = 2048/8
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.05
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.9
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
@@ -41,11 +45,12 @@ ttFont = TTFont(FONT_PATH)
 
 # Constants that are worked out dynamically
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
-MY_URL = "https://github.com/eliheuer/hasubi-mono "
+MY_URL = "https://github.com/eliheuer/GTL001 "
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
-FONT_NAME = FONT_NAME+" Latin "+FONT_VERSION
+FONT_NAME = FONT_NAME+FONT_VERSION
+FONT_NAME = "GTL001 Alpha NFT"
 ENS_NAME = "elih.eth"
 
 # Draws a grid
@@ -53,12 +58,12 @@ def grid():
     stroke(1, 0, 0, 0.75)
     strokeWidth(2)
     STEP_X, STEP_Y = 0, 0
-    INCREMENT_X, INCREMENT_Y = MARGIN / 2, MARGIN / 2
+    INCREMENT_X, INCREMENT_Y = MARGIN / 4, MARGIN / 4
     rect(MARGIN, MARGIN, WIDTH - (MARGIN * 2), HEIGHT - (MARGIN * 2))
-    for x in range(29):
+    for x in range(60):
         polygon((MARGIN + STEP_X, MARGIN), (MARGIN + STEP_X, HEIGHT - MARGIN))
         STEP_X += INCREMENT_X
-    for y in range(29):
+    for y in range(60):
         polygon((MARGIN, MARGIN + STEP_Y), (WIDTH - MARGIN, MARGIN + STEP_Y))
         STEP_Y += INCREMENT_Y
     polygon((WIDTH / 2, 0), (WIDTH / 2, HEIGHT))
@@ -98,16 +103,21 @@ def draw_main_text():
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
     text(BIG_TEXT_A, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
-    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*1.5))
-    text(BIG_TEXT_C, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*3))
+    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*0.75))
+    text(BIG_TEXT_C, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*1.50))
+    text(BIG_TEXT_D, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*2.25))
+    text(BIG_TEXT_E, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*3.00))
+    text(BIG_TEXT_F, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*3.75))
+    text(BIG_TEXT_G, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*4.50))
 
-# Divider lines
+
+# Divider lines/
 def draw_divider_lines():
     stroke(1)
     strokeWidth(4)
     lineCap("round")
-    line((MARGIN, HEIGHT - MARGIN*1.5), (WIDTH - MARGIN, HEIGHT - MARGIN*1.5))
-    line((MARGIN, MARGIN + (MARGIN / 2)), (WIDTH - MARGIN, MARGIN + (MARGIN / 2)))
+    line((MARGIN, HEIGHT - MARGIN * 1.25), (WIDTH - MARGIN, HEIGHT - MARGIN * 1.25))
+    line((MARGIN, MARGIN + (MARGIN / 4)), (WIDTH - MARGIN, MARGIN + (MARGIN / 4)))
     stroke(None)
 
 
@@ -116,17 +126,18 @@ def draw_auxiliary_text():
     # Setup
     font(AUXILIARY_FONT)
     fontSize(AUXILIARY_FONT_SIZE)
-    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.275)
-    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.275)
+    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.15)
+    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.15)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
     POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
     URL_AND_HASH = MY_URL + "at commit " + MY_HASH
     URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
+    GTL_URL = "https://gtl.world"
     # Draw Text
     text(FONT_NAME, POS_TOP_LEFT, align="left")
-    text("License: "+FONT_LICENSE, POS_TOP_RIGHT, align="right")
+    text(GTL_URL, POS_TOP_RIGHT, align="right")
+    text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
     text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
-    text(ENS_NAME, POS_BOTTOM_RIGHT, align="right")
 
 
 # Build and save the image
