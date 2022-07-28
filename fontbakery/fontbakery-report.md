@@ -80,6 +80,8 @@ But instead we have got:
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: zero	Contours detected: 1	Expected: 2 or 3
+
 	- Glyph name: eight	Contours detected: 1	Expected: 3
 
 	- Glyph name: A	Contours detected: 1	Expected: 2
@@ -96,11 +98,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: b	Contours detected: 1	Expected: 2
 
-	- Glyph name: d	Contours detected: 1	Expected: 2
+	- Glyph name: d	Contours detected: 1	Expected: 2 
 
-	- Glyph name: e	Contours detected: 1	Expected: 2 
-
-	- And 22 more.
+	- And 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -121,7 +121,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* B (U+0042): L<<15.0,20.0>--<16.0,340.0>>
 
-	* C (U+0043): L<<368.0,340.0>--<648.0,339.0>>
+	* C (U+0043): L<<351.0,352.0>--<650.0,350.0>>
 
 	* G (U+0047): L<<351.0,352.0>--<650.0,350.0>>
 
@@ -129,7 +129,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* b (U+0062): L<<15.0,20.0>--<16.0,340.0>>
 
-	* c (U+0063): L<<368.0,340.0>--<648.0,339.0>>
+	* c (U+0063): L<<351.0,352.0>--<650.0,350.0>>
 
 	* g (U+0067): L<<351.0,352.0>--<650.0,350.0>> 
 
