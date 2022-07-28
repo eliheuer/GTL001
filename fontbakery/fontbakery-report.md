@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[11] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[9] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -60,14 +60,6 @@ which does not match the expected format, similar to:
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2022 Eli Heuer (https://github.com/eliheuer/GTL001) with RFN GTL001" [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (700) and hhea ascent (1200) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 300 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -117,15 +109,11 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* ampersand (U+0026): X=239.0,Y=-2.0 (should be at baseline 0?)
+	* five (U+0035): X=182.5,Y=-1.0 (should be at baseline 0?)
 
-	* T (U+0054): X=425.0,Y=699.0 (should be at cap-height 700?)
+	* T (U+0054): X=425.0,Y=699.0 (should be at cap-height 700?) 
 
-	* T (U+0054): X=425.0,Y=699.0 (should be at ascender 700?)
-
-	* t (U+0074): X=425.0,Y=699.0 (should be at cap-height 700?) 
-
-	* And t (U+0074): X=425.0,Y=699.0 (should be at ascender 700?) [code: found-misalignments]
+	* And t (U+0074): X=425.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -133,30 +121,26 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* B (U+0042): L<<15.0,20.0>--<16.0,340.0>>
 
-	* C (U+0043): L<<363.0,340.0>--<643.0,339.0>>
+	* C (U+0043): L<<368.0,340.0>--<648.0,339.0>>
 
 	* G (U+0047): L<<351.0,352.0>--<650.0,350.0>>
 
 	* T (U+0054): L<<35.0,700.0>--<425.0,699.0>>
 
-	* ampersand (U+0026): L<<590.0,0.0>--<239.0,-2.0>>
-
 	* b (U+0062): L<<15.0,20.0>--<16.0,340.0>>
 
-	* c (U+0063): L<<363.0,340.0>--<643.0,339.0>>
+	* c (U+0063): L<<368.0,340.0>--<648.0,339.0>>
 
-	* g (U+0067): L<<351.0,352.0>--<650.0,350.0>>
+	* g (U+0067): L<<351.0,352.0>--<650.0,350.0>> 
 
-	* t (U+0074): L<<35.0,700.0>--<425.0,699.0>> 
-
-	* And two (U+0032): L<<265.0,501.0>--<25.0,500.0>> [code: found-semi-vertical]
+	* And t (U+0074): L<<35.0,700.0>--<425.0,699.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 5 | 120 | 7 | 97 | 0 |
-| 0% | 3% | 2% | 51% | 3% | 41% | 0% |
+| 0 | 4 | 5 | 120 | 7 | 99 | 0 |
+| 0% | 2% | 2% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

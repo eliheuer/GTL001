@@ -73,19 +73,19 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>6</td>
+                <td>4</td>
                 <td>5</td>
                 <td>120</td>
                 <td>7</td>
-                <td>97</td>
+                <td>99</td>
             </tr>
             <tr>
                 <td>0%</td>
+                <td>2%</td>
                 <td>3%</td>
-                <td>3%</td>
-                <td>68%</td>
+                <td>69%</td>
                 <td>4%</td>
-                <td>55%</td>
+                <td>57%</td>
             </tr>
             </table>
             
@@ -154,12 +154,7 @@ But instead we have got:
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
-<h3>Checking OS/2 Metrics match hhea Metrics.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (700) and hhea ascent (1200) must be equal. [code: ascender]</p>
-</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
@@ -200,26 +195,16 @@ But instead we have got:
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.hmtx&gt; 🔥</h2>
-<h3>Space and non-breaking space have the same width?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_widths&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 300 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
-</span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* ampersand (U+0026): X=239.0,Y=-2.0 (should be at baseline 0?)
+<pre><code>* five (U+0035): X=182.5,Y=-1.0 (should be at baseline 0?)
 
-* T (U+0054): X=425.0,Y=699.0 (should be at cap-height 700?)
+* T (U+0054): X=425.0,Y=699.0 (should be at cap-height 700?) 
 
-* T (U+0054): X=425.0,Y=699.0 (should be at ascender 700?)
-
-* t (U+0074): X=425.0,Y=699.0 (should be at cap-height 700?) 
-
-* And t (U+0074): X=425.0,Y=699.0 (should be at ascender 700?) [code: found-misalignments]
+* And t (U+0074): X=425.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
@@ -228,23 +213,19 @@ But instead we have got:
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
 <pre><code>* B (U+0042): L&lt;&lt;15.0,20.0&gt;--&lt;16.0,340.0&gt;&gt;
 
-* C (U+0043): L&lt;&lt;363.0,340.0&gt;--&lt;643.0,339.0&gt;&gt;
+* C (U+0043): L&lt;&lt;368.0,340.0&gt;--&lt;648.0,339.0&gt;&gt;
 
 * G (U+0047): L&lt;&lt;351.0,352.0&gt;--&lt;650.0,350.0&gt;&gt;
 
 * T (U+0054): L&lt;&lt;35.0,700.0&gt;--&lt;425.0,699.0&gt;&gt;
 
-* ampersand (U+0026): L&lt;&lt;590.0,0.0&gt;--&lt;239.0,-2.0&gt;&gt;
-
 * b (U+0062): L&lt;&lt;15.0,20.0&gt;--&lt;16.0,340.0&gt;&gt;
 
-* c (U+0063): L&lt;&lt;363.0,340.0&gt;--&lt;643.0,339.0&gt;&gt;
+* c (U+0063): L&lt;&lt;368.0,340.0&gt;--&lt;648.0,339.0&gt;&gt;
 
-* g (U+0067): L&lt;&lt;351.0,352.0&gt;--&lt;650.0,350.0&gt;&gt;
+* g (U+0067): L&lt;&lt;351.0,352.0&gt;--&lt;650.0,350.0&gt;&gt; 
 
-* t (U+0074): L&lt;&lt;35.0,700.0&gt;--&lt;425.0,699.0&gt;&gt; 
-
-* And two (U+0032): L&lt;&lt;265.0,501.0&gt;--&lt;25.0,500.0&gt;&gt; [code: found-semi-vertical]
+* And t (U+0074): L&lt;&lt;35.0,700.0&gt;--&lt;425.0,699.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
 </span></li></ul></div></details>
                     </body>
