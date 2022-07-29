@@ -74,15 +74,15 @@
             <tr>
                 <td>0</td>
                 <td>4</td>
-                <td>5</td>
+                <td>4</td>
                 <td>120</td>
                 <td>7</td>
-                <td>99</td>
+                <td>100</td>
             </tr>
             <tr>
                 <td>0%</td>
                 <td>2%</td>
-                <td>3%</td>
+                <td>2%</td>
                 <td>69%</td>
                 <td>4%</td>
                 <td>57%</td>
@@ -159,9 +159,9 @@ But instead we have got:
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- NULL 
+<pre><code>- CR 
 
-- And CR
+- And NULL
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -195,37 +195,12 @@ But instead we have got:
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* three (U+0033): X=334.5,Y=699.5 (should be at cap-height 700?)
-
-* T (U+0054): X=405.0,Y=699.0 (should be at cap-height 700?) 
-
-* And t (U+0074): X=405.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
-</code></pre>
-</span></li></ul></div></details>
-<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* B (U+0042): L&lt;&lt;15.0,20.0&gt;--&lt;16.0,340.0&gt;&gt;
-
-* C (U+0043): L&lt;&lt;351.0,352.0&gt;--&lt;705.0,350.0&gt;&gt;
-
-* G (U+0047): L&lt;&lt;351.0,352.0&gt;--&lt;705.0,350.0&gt;&gt;
-
-* T (U+0054): L&lt;&lt;35.0,700.0&gt;--&lt;405.0,699.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;15.0,20.0&gt;--&lt;16.0,340.0&gt;&gt;
-
-* c (U+0063): L&lt;&lt;351.0,352.0&gt;--&lt;705.0,350.0&gt;&gt;
-
-* g (U+0067): L&lt;&lt;351.0,352.0&gt;--&lt;705.0,350.0&gt;&gt; 
-
-* And t (U+0074): L&lt;&lt;35.0,700.0&gt;--&lt;405.0,699.0&gt;&gt; [code: found-semi-vertical]
+<pre><code>* three (U+0033): X=334.5,Y=699.5 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
                     </body>

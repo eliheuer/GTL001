@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[9] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[8] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -69,9 +69,9 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- CR 
 
-	- And CR
+	- And NULL
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -109,38 +109,14 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=334.5,Y=699.5 (should be at cap-height 700?)
-
-	* T (U+0054): X=405.0,Y=699.0 (should be at cap-height 700?) 
-
-	* And t (U+0074): X=405.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* B (U+0042): L<<15.0,20.0>--<16.0,340.0>>
-
-	* C (U+0043): L<<351.0,352.0>--<705.0,350.0>>
-
-	* G (U+0047): L<<351.0,352.0>--<705.0,350.0>>
-
-	* T (U+0054): L<<35.0,700.0>--<405.0,699.0>>
-
-	* b (U+0062): L<<15.0,20.0>--<16.0,340.0>>
-
-	* c (U+0063): L<<351.0,352.0>--<705.0,350.0>>
-
-	* g (U+0067): L<<351.0,352.0>--<705.0,350.0>> 
-
-	* And t (U+0074): L<<35.0,700.0>--<405.0,699.0>> [code: found-semi-vertical]
+	* three (U+0033): X=334.5,Y=699.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 5 | 120 | 7 | 99 | 0 |
-| 0% | 2% | 2% | 51% | 3% | 42% | 0% |
+| 0 | 4 | 4 | 120 | 7 | 100 | 0 |
+| 0% | 2% | 2% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
