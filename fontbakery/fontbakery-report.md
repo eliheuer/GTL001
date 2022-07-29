@@ -69,9 +69,9 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- CR 
+	- NULL 
 
-	- And NULL
+	- And CR
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -111,9 +111,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* five (U+0035): X=182.5,Y=-1.0 (should be at baseline 0?)
 
-	* T (U+0054): X=425.0,Y=699.0 (should be at cap-height 700?) 
+	* T (U+0054): X=405.0,Y=699.0 (should be at cap-height 700?) 
 
-	* And t (U+0074): X=425.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+	* And t (U+0074): X=405.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -121,19 +121,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* B (U+0042): L<<15.0,20.0>--<16.0,340.0>>
 
-	* C (U+0043): L<<351.0,352.0>--<650.0,350.0>>
+	* C (U+0043): L<<351.0,352.0>--<705.0,350.0>>
 
-	* G (U+0047): L<<351.0,352.0>--<650.0,350.0>>
+	* G (U+0047): L<<351.0,352.0>--<705.0,350.0>>
 
-	* T (U+0054): L<<35.0,700.0>--<425.0,699.0>>
+	* T (U+0054): L<<35.0,700.0>--<405.0,699.0>>
 
 	* b (U+0062): L<<15.0,20.0>--<16.0,340.0>>
 
-	* c (U+0063): L<<351.0,352.0>--<650.0,350.0>>
+	* c (U+0063): L<<351.0,352.0>--<705.0,350.0>>
 
-	* g (U+0067): L<<351.0,352.0>--<650.0,350.0>> 
+	* g (U+0067): L<<351.0,352.0>--<705.0,350.0>> 
 
-	* And t (U+0074): L<<35.0,700.0>--<425.0,699.0>> [code: found-semi-vertical]
+	* And t (U+0074): L<<35.0,700.0>--<405.0,699.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
