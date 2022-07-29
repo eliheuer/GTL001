@@ -353,7 +353,7 @@ nodes = (
 );
 }
 );
-width = 740;
+width = 735;
 },
 {
 associatedMasterId = master01;
@@ -519,7 +519,7 @@ width = 740;
 }
 );
 leftKerningGroup = O;
-rightKerningGroup = G;
+rightKerningGroup = C;
 unicode = 0043;
 },
 {
@@ -1832,7 +1832,7 @@ name = C;
 }
 );
 layerId = master01;
-width = 740;
+width = 735;
 }
 );
 leftKerningGroup = O;
@@ -2449,12 +2449,12 @@ nodes = (
 "515 109 OFFCURVE",
 "515 241 CURVE SMOOTH",
 "515 367 OFFCURVE",
-"442 454 OFFCURVE",
+"441 452 OFFCURVE",
 "354 475 CURVE",
 "344 485 LINE",
 "344 490 LINE",
 "354 500 LINE",
-"388 520 OFFCURVE",
+"378 518 OFFCURVE",
 "405 551 OFFCURVE",
 "405 589 CURVE SMOOTH",
 "405 683 OFFCURVE",
@@ -3687,6 +3687,7 @@ master01 = {
 };
 "@MMK_L_B" = {
 "@MMK_R_A" = -50;
+"@MMK_R_O" = -10;
 "@MMK_R_T" = -90;
 "@MMK_R_Y" = -60;
 };
@@ -3733,6 +3734,7 @@ master01 = {
 "@MMK_R_A" = -80;
 "@MMK_R_T" = -40;
 "@MMK_R_V" = -80;
+"@MMK_R_Z" = -60;
 "@MMK_R_period" = -80;
 "@MMK_R_space" = -50;
 };
@@ -3749,8 +3751,10 @@ master01 = {
 "@MMK_L_S" = {
 "@MMK_R_A" = -40;
 "@MMK_R_T" = -60;
+"@MMK_R_V" = -80;
 "@MMK_R_exclam" = -40;
 "@MMK_R_period" = -30;
+"@MMK_R_question" = -50;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -100;
