@@ -109,7 +109,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* five (U+0035): X=182.5,Y=-1.0 (should be at baseline 0?)
+	* three (U+0033): X=334.5,Y=699.5 (should be at cap-height 700?)
 
 	* T (U+0054): X=405.0,Y=699.0 (should be at cap-height 700?) 
 
