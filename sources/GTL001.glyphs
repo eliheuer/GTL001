@@ -2,7 +2,8 @@
 .appVersion = "3133";
 DisplayStrings = (
 "ABCDEFGHIJK\012LMNOPQRSTU\012VWXYZ/space/space/space \01212345767890\012(.,;:)-/endash/emdash &!?\012GTL-1/space 32-TEeth/space \0123d-Render512\012",
-"3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659335744616728475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362440656643086021394946395224737190702179860943702770539217176293176752384674818467669405132000568127145263560827785771342757789609173637178721468440901224953430146549585371050792279689258923542019956112129021960864034418159813629774771309960518707211349999998372978049951059731732816096318595024459455346908302642522308253344685035261931188171010003137838752886587533208381420617177669147303598253490428755468731159562863882353787593751957781857780532171226806613001927876611195909216420198938095257201065485863278865936153381827968230301952035301852968995773622599413891249721775283479131515574857242454150695950829533116861727855889075098381754637464939319255060400927701671139009848824012858361603563707660104710181942955596198946767837449448255379774726847104047534646208046684259069491293313677028989152104752162056966024058038150193511253382430035587640247496473263914199272604269922796782354781636009341721641219924586315030286182974555706749838505494588586926995690927210797509302955321165344987202755960236480665499119881834797753566369807426542527862551818417574672890977772793800081647060016145249192173217214772350141441973568548161361157352552133475741849468438523323907394143334547762416862518983569485562099219222184272550254256887671790494601653466804988627232791786085784383827967976681454100953883786360950680064225125205117392984896084128488626945604241965285022210661186306744278622039194945047123713786960956364371917287467764657573962413890865832645995813390478027590099465764078951269468398352595709825822620522489407726719478268482601476990902640136394437455305068203496252451749399651431429809190659250937221696461515709858387410597885959772975498930161753928468138268683868942774155991855925245953959431049972524680845987273644695848653836736222626099124608051243884390451244136549762780797715691435997700129616089441694868555848406353422072225828488648158456028506016842739452267467678895252138522549954666727823986456596116354886230577456498035593634568174324112515076069479451096596094025228879710893145669136867228748940560101503308617928680920874760917824938589009714909675985261365549781893129784821682998948722658804857564014270477555132379641451523746234364542858444795265867821051141354735739523113427166102135969536231442952484937187110145765403590279934403742007310578539062198387447808478489683321445713868751943506430218453191048481005370614680674919278191197939952061419663428754440643745123718192179998391015919561814675142691239748940907186494231961567945208095146550225231603881930142093762137855956638937787083039069792077346722182562599661501421503068038447734549202605414665925201497442850732518666002132434088190710486331734649651453905796268561005508106658796998163574736384052571459102897064140110971206280439039759515677157700420337869936007230558763176359421873125147120532928191826186125867321579198414848829164470609575270695722091756711672291098169091528017350671274858322287183520935396572512108357915136988209144421006751033467110314126711136990865851639831501970165151168517143765761835155650884909989859982387345528331635507647918535893226185489632132933089857064204675259070915481416549859461637180270981994309924488957571282890592323326097299712084433573265489382391193259746366730583604142813883032038249037589852437441702913276561809377344403070746921120191302033038019762110110044929321516084244485963766983895228684783123552658213144957685726243344189303968642624341077322697802807318915441101044682325271620105265227211166039666557309254711055785376346682065310989652691862056476931257058635662018558100729360659876486117910453348850346113657686753249441668039626579787718556084552965412665408530614344431858676975145661406800700237877659134401712749470420562230538994561314071127000407854733269939081454664645880797270826683063432858785698305235808933065757406795457163775254202114955761581400250126228594130216471550979259230990796547376125517656751357517829666454779174501129961489030463994713296210734043751895735961458901938971311179042978285647503203198691514028708085990480109412147221317947647772622414254854540332157185306142288137585043063321751829798662237172159160771669254748738986654949450114654062843366393790"
+"3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659335744616728475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362440656643086021394946395224737190702179860943702770539217176293176752384674818467669405132000568127145263560827785771342757789609173637178721468440901224953430146549585371050792279689258923542019956112129021960864034418159813629774771309960518707211349999998372978049951059731732816096318595024459455346908302642522308253344685035261931188171010003137838752886587533208381420617177669147303598253490428755468731159562863882353787593751957781857780532171226806613001927876611195909216420198938095257201065485863278865936153381827968230301952035301852968995773622599413891249721775283479131515574857242454150695950829533116861727855889075098381754637464939319255060400927701671139009848824012858361603563707660104710181942955596198946767837449448255379774726847104047534646208046684259069491293313677028989152104752162056966024058038150193511253382430035587640247496473263914199272604269922796782354781636009341721641219924586315030286182974555706749838505494588586926995690927210797509302955321165344987202755960236480665499119881834797753566369807426542527862551818417574672890977772793800081647060016145249192173217214772350141441973568548161361157352552133475741849468438523323907394143334547762416862518983569485562099219222184272550254256887671790494601653466804988627232791786085784383827967976681454100953883786360950680064225125205117392984896084128488626945604241965285022210661186306744278622039194945047123713786960956364371917287467764657573962413890865832645995813390478027590099465764078951269468398352595709825822620522489407726719478268482601476990902640136394437455305068203496252451749399651431429809190659250937221696461515709858387410597885959772975498930161753928468138268683868942774155991855925245953959431049972524680845987273644695848653836736222626099124608051243884390451244136549762780797715691435997700129616089441694868555848406353422072225828488648158456028506016842739452267467678895252138522549954666727823986456596116354886230577456498035593634568174324112515076069479451096596094025228879710893145669136867228748940560101503308617928680920874760917824938589009714909675985261365549781893129784821682998948722658804857564014270477555132379641451523746234364542858444795265867821051141354735739523113427166102135969536231442952484937187110145765403590279934403742007310578539062198387447808478489683321445713868751943506430218453191048481005370614680674919278191197939952061419663428754440643745123718192179998391015919561814675142691239748940907186494231961567945208095146550225231603881930142093762137855956638937787083039069792077346722182562599661501421503068038447734549202605414665925201497442850732518666002132434088190710486331734649651453905796268561005508106658796998163574736384052571459102897064140110971206280439039759515677157700420337869936007230558763176359421873125147120532928191826186125867321579198414848829164470609575270695722091756711672291098169091528017350671274858322287183520935396572512108357915136988209144421006751033467110314126711136990865851639831501970165151168517143765761835155650884909989859982387345528331635507647918535893226185489632132933089857064204675259070915481416549859461637180270981994309924488957571282890592323326097299712084433573265489382391193259746366730583604142813883032038249037589852437441702913276561809377344403070746921120191302033038019762110110044929321516084244485963766983895228684783123552658213144957685726243344189303968642624341077322697802807318915441101044682325271620105265227211166039666557309254711055785376346682065310989652691862056476931257058635662018558100729360659876486117910453348850346113657686753249441668039626579787718556084552965412665408530614344431858676975145661406800700237877659134401712749470420562230538994561314071127000407854733269939081454664645880797270826683063432858785698305235808933065757406795457163775254202114955761581400250126228594130216471550979259230990796547376125517656751357517829666454779174501129961489030463994713296210734043751895735961458901938971311179042978285647503203198691514028708085990480109412147221317947647772622414254854540332157185306142288137585043063321751829798662237172159160771669254748738986654949450114654062843366393790",
+"Down,/space down,/space down./space There/space was/space nothing/space else/space to/space do,/space so/space Alice/space soon/space began\012talking/space again./space Dinahll/space miss/space me/space very/space much/space to-night,/space I/space should/space think!\012(Dinah/space was/space the/space cat.)/space I/space hope/space theyll/space remember/space her/space saucer/space of/space milk/space at\012tea-time./space Dinah/space my/space dear!/space I/space wish/space you/space were/space down/space here/space with/space me!/space There/space are\012no/space mice/space in/space the/space air,/space Im/space afraid,/space but/space you/space might/space catch/space a/space bat,/space and/space thats\012very/space like/space a/space mouse,/space you/space know./space But/space do/space cats/space eat/space bats,/space I/space wonder?/space And/space here\012Alice/space began/space to/space get/space rather/space sleepy,/space and/space went/space on/space saying/space to/space herself,/space in/space a\012dreamy/space sort/space of/space way,/space Do/space cats/space eat/space bats?/space Do/space cats/space eat/space bats?/space and\012sometimes,/space Do/space bats/space eat/space cats?/space for,/space you/space see,/space as/space she/space couldnt/space answer\012either/space question,/space it/space didnt/space much/space matter/space which/space way/space she/space put/space it./space She/space felt\012that/space she/space was/space dozing/space off,/space and/space had/space just/space begun/space to/space dream/space that/space she/space was\012walking/space hand/space in/space hand/space with/space Dinah,/space and/space saying/space to/space her/space very/space earnestly,\012Now,/space Dinah,/space tell/space me/space the/space truth:/space did/space you/space ever/space eat/space a/space bat?/space when/space suddenly,\012thump!/space thump!/space down/space she/space came/space upon/space a/space heap/space of/space sticks/space and/space dry/space leaves,/space and\012the/space fall/space was/space over.\012\012Alice/space was/space not/space a/space bit/space hurt,/space and/space she/space jumped/space up/space on/space to/space her/space feet/space in/space a/space moment:\012she/space looked/space up,/space but/space it/space was/space all/space dark/space overhead;/space before/space her/space was/space another\012long/space passage,/space and/space the/space White/space Rabbit/space was/space still/space in/space sight,/space hurrying/space down\012it./space There/space was/space not/space a/space moment/space to/space be/space lost:/space away/space went/space Alice/space like/space the/space wind,\012and/space was/space just/space in/space time/space to/space hear/space it/space say,/space as/space it/space turned/space a/space corner,/space Oh/space my/space ears\012and/space whiskers,/space how/space late/space its/space getting!/space She/space was/space close/space behind/space it/space when/space she\012turned/space the/space corner,/space but/space the/space Rabbit/space was/space no/space longer/space to/space be/space seen:/space she/space found\012herself/space in/space a/space long,/space low/space hall,/space which/space was/space lit/space up/space by/space a/space row/space of/space lamps/space hanging\012from/space the/space roof.\012\012There/space were/space doors/space all/space round/space the/space hall,/space but/space they/space were/space all/space locked;/space and/space when\012Alice/space had/space been/space all/space the/space way/space down/space one/space side/space and/space up/space the/space other,/space trying/space every\012door,/space she/space walked/space sadly/space down/space the/space middle,/space wondering/space how/space she/space was/space ever/space to\012get/space out/space again.\012\012Suddenly/space she/space came/space upon/space a/space little/space three-legged/space table,/space all/space made/space of/space solid\012glass;/space there/space was/space nothing/space on/space it/space except/space a/space tiny/space golden/space key,/space and/space Alices\012first/space thought/space was/space that/space it/space might/space belong/space to/space one/space of/space the/space doors/space of/space the/space hall;\012but,/space alas!/space either/space the/space locks/space were/space too/space large,/space or/space the/space key/space was/space too/space small,\012but/space at/space any/space rate/space it/space would/space not/space open/space any/space of/space them./space However,/space on/space the/space second\012time/space round,/space she/space came/space upon/space a/space low/space curtain/space she/space had/space not/space noticed/space before,/space and\012behind/space it/space was/space a/space little/space door/space about/space fifteen/space inches/space high:/space she/space tried/space the\012little/space golden/space key/space in/space the/space lock,/space and/space to/space her/space great/space delight/space it/space fitted!\012\012Alice/space opened/space the/space door/space and/space found/space that/space it/space led/space into/space a/space small/space passage,/space not\012much/space larger/space than/space a/space rat-hole:/space she/space knelt/space down/space and/space looked/space along/space the\012passage/space into/space the/space loveliest/space garden/space you/space ever/space saw./space How/space she/space longed/space to/space get\012out/space of/space that/space dark/space hall,/space and/space wander/space about/space among/space those/space beds/space of/space bright\012flowers/space and/space those/space cool/space fountains,/space but/space she/space could/space not/space even/space get/space her/space head\012through/space the/space doorway;/space and/space even/space if/space my/space head/space would/space go/space through,/space thought\012poor/space Alice,/space it/space would/space be/space of/space very/space little/space use/space without/space my/space shoulders./space Oh,\012how/space I/space wish/space I/space could/space shut/space up/space like/space a/space telescope!/space I/space think/space I/space could,/space if/space I/space only\012knew/space how/space to/space begin./space For,/space you/space see,/space so/space many/space out-of-the-way/space things/space had\012happened/space lately,/space that/space Alice/space had/space begun/space to/space think/space that/space very/space few/space things\012indeed/space were/space really/space impossible.\012\012There/space seemed/space to/space be/space no/space use/space in/space waiting/space by/space the/space little/space door,/space so/space she/space went\012back/space to/space the/space table,/space half/space hoping/space she/space might/space find/space another/space key/space on/space it,/space or/space at\012any/space rate/space a/space book/space of/space rules/space for/space shutting/space people/space up/space like/space telescopes:/space this\012time/space she/space found/space a/space little/space bottle/space on/space it,/space (which/space certainly/space was/space not/space here\012before,/space said/space Alice,)/space and/space round/space the/space neck/space of/space the/space bottle/space wV/space aVs/space a/space paper\012label,/space with/space the/space words/space DRINK/space ME,/space beautifully/space printed/space on/space it/space in/space large\012letters.\012\012It/space was/space all/space very/space well/space to/space say/space Drink/space me,/space but/space the/space wise/space little/space Alice/space waWs\012not/space going/space to/space do/space that/space in/space a/space hurry./space No,/space Ill/space look/space first,/space she/space said,\012and/space see/space whether/space its/space marked/space poison/space or/space not;/space for/space she/space had/space read\012several/space nice/space little/space histories/space about/space children/space who/space had/space got/space burnt,/space and\012eaten/space up/space by/space wild/space beasts/space and/space other/space unpleasant/space things,/space all/space because/space they\012would/space not/space remember/space the/space simple/space rules/space their/space friends/space had/space taught/space them:\012such/space as,/space that/space a/space red-hot/space poker/space will/space burn/space you/space if/space you/space hold/space it/space too/space long;\012and/space that/space if/space you/space cut/space your/space finger/space very/space deeply/space with/space a/space knife,/space it/space usually\012bleeds;/space and/space she/space had/space never/space forgotten/space that,/space if/space you/space drink/space much/space from/space a\012bottle/space marked/space poison,/space it/space is/space almost/space certain/space to/space disagree/space with/space you,\012sooner/space or/space later.\012\012However,/space this/space bottle/space was/space not/space marked/space poison,/space so/space Alice/space ventured/space to\012taste/space it,/space and/space finding/space it/space very/space nice,/space (it/space had,/space in/space fact,/space a/space sort/space of/space mixed\012flavour/space of/space cherry-tart,/space custard,/space pine-apple,/space roast/space turkey,/space toffee,/space and\012hot/space buttered/space toast,)/space she/space very/space soon/space finished/space it/space off."
 );
 copyright = "Copyright 2022 Eli Heuer (https://github.com/eliheuer/GTL001) with RFN GTL001";
 customParameters = (
@@ -112,28 +113,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"230 0 LINE",
-"240 10 LINE",
-"240 340 LINE",
-"250 350 LINE",
-"260 350 LINE",
-"270 340 LINE",
-"270 10 LINE",
-"280 0 LINE",
-"480 0 LINE",
-"500 20 LINE",
-"500 40 LINE",
-"275 690 LINE",
-"265 700 LINE",
-"245 700 LINE",
-"235 690 LINE",
-"10 40 LINE",
-"10 20 LINE",
-"30 0 LINE"
+"235 0 LINE",
+"245 10 LINE",
+"245 340 LINE",
+"255 350 LINE",
+"265 350 LINE",
+"275 340 LINE",
+"275 10 LINE",
+"285 0 LINE",
+"485 0 LINE",
+"505 20 LINE",
+"505 40 LINE",
+"280 690 LINE",
+"270 700 LINE",
+"250 700 LINE",
+"240 690 LINE",
+"15 40 LINE",
+"15 20 LINE",
+"35 0 LINE"
 );
 }
 );
-width = 510;
+width = 520;
 },
 {
 associatedMasterId = master01;
@@ -191,30 +192,30 @@ nodes = (
 "329 485 LINE",
 "329 490 LINE",
 "339 500 LINE",
-"381 508 OFFCURVE",
-"417 541 OFFCURVE",
-"417 590 CURVE SMOOTH",
-"417 665 OFFCURVE",
+"391 516 OFFCURVE",
+"407 551 OFFCURVE",
+"407 590 CURVE SMOOTH",
+"407 657 OFFCURVE",
 "356 700 OFFCURVE",
-"264 700 CURVE SMOOTH",
-"36 700 LINE",
-"16 680 LINE",
-"16 510 LINE",
-"26 500 LINE",
+"279 700 CURVE SMOOTH",
+"35 700 LINE",
+"15 680 LINE",
+"15 510 LINE",
+"25 500 LINE",
 "217 500 LINE",
 "227 490 LINE",
 "227 485 LINE",
 "217 475 LINE",
-"26 475 LINE",
-"16 465 LINE",
-"16 385 LINE",
-"26 375 LINE",
+"25 475 LINE",
+"15 465 LINE",
+"15 385 LINE",
+"25 375 LINE",
 "247 375 LINE",
 "257 365 LINE",
 "257 360 LINE",
 "247 350 LINE",
-"26 350 LINE",
-"16 340 LINE",
+"25 350 LINE",
+"15 340 LINE",
 "15 20 LINE",
 "35 0 LINE"
 );
@@ -334,8 +335,8 @@ nodes = (
 "725 310 CURVE SMOOTH",
 "725 330 LINE",
 "705 350 LINE",
-"351 352 LINE",
-"346 362 LINE",
+"356 350 LINE",
+"346 361 LINE",
 "351 372 LINE",
 "615 540 LINE",
 "625 560 LINE",
@@ -665,7 +666,7 @@ nodes = (
 "725 20 LINE",
 "725 330 LINE",
 "705 350 LINE",
-"351 352 LINE",
+"356 350 LINE",
 "346 362 LINE",
 "351 372 LINE",
 "625 530 LINE",
@@ -1444,7 +1445,7 @@ nodes = (
 "405 500 LINE",
 "425 520 LINE",
 "425 680 LINE",
-"405 699 LINE",
+"405 700 LINE",
 "35 700 LINE",
 "15 680 LINE",
 "15 520 LINE",
@@ -1795,7 +1796,7 @@ name = A;
 }
 );
 layerId = master01;
-width = 510;
+width = 520;
 }
 );
 leftKerningGroup = A;
@@ -1834,7 +1835,7 @@ layerId = master01;
 width = 740;
 }
 );
-leftKerningGroup = C;
+leftKerningGroup = O;
 rightKerningGroup = C;
 unicode = 0063;
 },
@@ -1906,7 +1907,7 @@ layerId = master01;
 width = 740;
 }
 );
-leftKerningGroup = G;
+leftKerningGroup = O;
 rightKerningGroup = G;
 unicode = 0067;
 },
@@ -2449,12 +2450,12 @@ nodes = (
 "515 241 CURVE SMOOTH",
 "515 367 OFFCURVE",
 "442 454 OFFCURVE",
-"344 475 CURVE",
-"334 485 LINE",
-"334 490 LINE",
-"344 500 LINE",
-"385 518 OFFCURVE",
-"405 552 OFFCURVE",
+"354 475 CURVE",
+"344 485 LINE",
+"344 490 LINE",
+"354 500 LINE",
+"388 520 OFFCURVE",
+"405 551 OFFCURVE",
 "405 589 CURVE SMOOTH",
 "405 683 OFFCURVE",
 "340 710 OFFCURVE",
@@ -2486,97 +2487,6 @@ nodes = (
 }
 );
 width = 525;
-},
-{
-associatedMasterId = master01;
-layerId = "A00F897B-993C-45EF-A1D5-B80D79666229";
-name = "Jul 29, 22, 09:20";
-paths = (
-{
-closed = 1;
-nodes = (
-"484 -10 OFFCURVE",
-"555 79 OFFCURVE",
-"555 211 CURVE SMOOTH",
-"555 257 OFFCURVE",
-"514 363 OFFCURVE",
-"424 394 CURVE",
-"419 404 LINE",
-"424 414 LINE",
-"465 434 OFFCURVE",
-"504 473 OFFCURVE",
-"504 530 CURVE SMOOTH",
-"504 624 OFFCURVE",
-"450 710 OFFCURVE",
-"315 710 CURVE SMOOTH",
-"180 710 OFFCURVE",
-"124 637 OFFCURVE",
-"124 530 CURVE SMOOTH",
-"124 510 LINE",
-"134 500 LINE",
-"297 500 LINE",
-"307 490 LINE",
-"307 485 LINE",
-"297 475 LINE",
-"134 475 LINE",
-"124 465 LINE",
-"124 385 LINE",
-"134 375 LINE",
-"314 375 LINE",
-"324 365 LINE",
-"324 360 LINE",
-"314 350 LINE",
-"36 350 LINE",
-"15 330 LINE",
-"15 280 LINE SMOOTH",
-"15 49 OFFCURVE",
-"125 -10 OFFCURVE",
-"315 -10 CURVE SMOOTH"
-);
-}
-);
-width = 570;
-},
-{
-associatedMasterId = master01;
-layerId = "E068D740-155F-4F08-BD20-D866424A4B98";
-name = "Jul 29, 22, 11:22";
-paths = (
-{
-closed = 1;
-nodes = (
-"406 -10 OFFCURVE",
-"515 85 OFFCURVE",
-"515 250 CURVE SMOOTH",
-"515 375 OFFCURVE",
-"408 475 OFFCURVE",
-"255 475 CURVE",
-"245 485 LINE",
-"245 490 LINE",
-"255 500 LINE",
-"385 500 LINE",
-"405 520 LINE",
-"405 680 LINE",
-"385 700 LINE",
-"95 700 LINE",
-"75 680 LINE",
-"75 385 LINE",
-"85 375 LINE",
-"255 375 LINE",
-"265 365 LINE",
-"265 360 LINE",
-"255 350 LINE",
-"35 350 LINE",
-"15 330 LINE",
-"15 250 LINE SMOOTH",
-"15 85 OFFCURVE",
-"142 -10 OFFCURVE",
-"264 -10 CURVE SMOOTH"
-);
-}
-);
-visible = 1;
-width = 570;
 }
 );
 leftKerningGroup = "3";
@@ -3363,6 +3273,8 @@ visible = 1;
 width = 400;
 }
 );
+leftKerningGroup = question;
+rightKerningGroup = question;
 unicode = 003F;
 },
 {
@@ -3695,6 +3607,8 @@ name = Regular;
 kerning = {
 master01 = {
 "@MMK_L_0" = {
+"@MMK_R_1" = -10;
+"@MMK_R_7" = -10;
 "@MMK_R_9" = -10;
 };
 "@MMK_L_1" = {
@@ -3761,11 +3675,14 @@ master01 = {
 "@MMK_L_A" = {
 "@MMK_R_C" = -80;
 "@MMK_R_G" = -70;
+"@MMK_R_O" = -80;
 "@MMK_R_S" = -40;
 "@MMK_R_T" = -90;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -210;
+"@MMK_R_W" = -210;
 "@MMK_R_Y" = -90;
+"@MMK_R_dash" = -120;
 "@MMK_R_exclam" = -50;
 };
 "@MMK_L_B" = {
@@ -3774,7 +3691,7 @@ master01 = {
 "@MMK_R_Y" = -60;
 };
 "@MMK_L_C" = {
-"@MMK_R_A" = -50;
+"@MMK_R_A" = -80;
 "@MMK_R_T" = -100;
 };
 "@MMK_L_D" = {
@@ -3786,12 +3703,14 @@ master01 = {
 "@MMK_R_V" = -90;
 "@MMK_R_Y" = -90;
 "@MMK_R_dash" = -70;
+"@MMK_R_exclam" = -30;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -170;
 "@MMK_R_G" = -30;
 "@MMK_R_O" = -45;
 "@MMK_R_dash" = -70;
+"@MMK_R_period" = -170;
 };
 "@MMK_L_G" = {
 "@MMK_R_T" = -90;
@@ -3800,6 +3719,7 @@ master01 = {
 "@MMK_R_A" = -30;
 };
 "@MMK_L_K" = {
+"@MMK_R_S" = -50;
 "@MMK_R_dash" = -120;
 };
 "@MMK_L_L" = {
@@ -3810,7 +3730,7 @@ master01 = {
 "@MMK_R_dash" = -100;
 };
 "@MMK_L_O" = {
-"@MMK_R_A" = -70;
+"@MMK_R_A" = -80;
 "@MMK_R_T" = -40;
 "@MMK_R_V" = -80;
 "@MMK_R_period" = -80;
@@ -3820,22 +3740,23 @@ master01 = {
 "@MMK_R_A" = -140;
 "@MMK_R_O" = -20;
 };
-"@MMK_L_Q" = {
-"@MMK_R_U" = -20;
-};
 "@MMK_L_R" = {
 "@MMK_R_5" = -50;
-"@MMK_R_V" = -30;
+"@MMK_R_O" = -10;
+"@MMK_R_V" = -40;
 "@MMK_R_Y" = -30;
 };
 "@MMK_L_S" = {
 "@MMK_R_A" = -40;
 "@MMK_R_T" = -60;
+"@MMK_R_exclam" = -40;
 "@MMK_R_period" = -30;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -100;
-"@MMK_R_O" = -50;
+"@MMK_R_J" = -90;
+"@MMK_R_O" = -40;
+"@MMK_R_S" = -10;
 "@MMK_R_colon" = -100;
 "@MMK_R_dash" = -100;
 "@MMK_R_period" = -100;
@@ -3844,13 +3765,17 @@ master01 = {
 "@MMK_R_A" = -40;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -200;
+"@MMK_R_A" = -210;
 "@MMK_R_O" = -80;
 "@MMK_R_period" = -190;
 "@MMK_R_space" = -100;
 };
 "@MMK_L_W" = {
 "@MMK_R_A" = -190;
+"@MMK_R_O" = -80;
+"@MMK_R_S" = -50;
+};
+"@MMK_L_X" = {
 "@MMK_R_O" = -80;
 };
 "@MMK_L_Y" = {
@@ -3859,6 +3784,7 @@ master01 = {
 "@MMK_R_S" = -40;
 "@MMK_R_Z" = -20;
 "@MMK_R_colon" = -90;
+"@MMK_R_dash" = -60;
 "@MMK_R_period" = -100;
 };
 "@MMK_L_ampersand" = {
@@ -3881,6 +3807,10 @@ master01 = {
 "@MMK_R_7" = -100;
 "@MMK_R_8" = -30;
 "@MMK_R_9" = -80;
+"@MMK_R_space" = -80;
+};
+"@MMK_L_question" = {
+"@MMK_R_A" = -100;
 };
 "@MMK_L_space" = {
 "@MMK_R_O" = -50;
