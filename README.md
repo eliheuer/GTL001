@@ -23,17 +23,22 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 **29 July 2022. Version 0.1**
-- Alpha release.
-- NFT minting is live on Zora
+- Alpha release
+- NFT minting is [live on Zora](https://create.zora.co/editions/0xb013e4f218760bb72f63f8d78a82b546c91897ef)
 
 **27 July 2022. Version 0.1**
-- Repo setup and drawing.
+- Repo setup and drawing
 
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at
-https://scripts.sil.org/OFL
+This license is available with a FAQ at: [https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)
+
+The SIL Open Font License (OFL) is a free, libre and open source license.
+
+The OFL provides a legal framework and infrastructure for worldwide development, sharing and improvement of fonts and related software in a collaborative manner. It enables font authors to release their work under a common license that allows use, bundling, modification and redistribution. It encourages shared value, is not limited to any specific computing platform or environment, and can be used by other organizations or individuals.
+
+The OFL meets the specific needs of typographic design and engineering as well as the gold standards of the FLOSS (Free/Libre and Open Source Software) community, namely the cultural values and guidelines from the FSF, the Debian Free Software Guidelines, as well as the Open Source Definition.
 
 ## Google Fonts QA
 [![][Fontbakery]](https://eliheuer.github.io/GTL001/fontbakery/fontbakery-report.html)
