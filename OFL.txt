@@ -1,5 +1,4 @@
-Copyright 2022 Eli Heuer (https://github.com/eliheuer/GTL001)
-with Reserved Font Name GTL001.
+Copyright 2022 The GTL001 Project Authors (https://github.com/eliheuer/GTL001)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
