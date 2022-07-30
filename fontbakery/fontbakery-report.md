@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[8] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[6] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -40,26 +40,10 @@ Fontbakery version: 0.8.9
 	- And 245 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright">com.google.fonts/check/license/OFL_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** First line in license file is:
-
-"copyright 2022 eli heuer (https://github.com/eliheuer/gtl001)"
-
-which does not match the expected format, similar to:
-
-"Copyright 2022 The Familyname Project Authors (git url)" [code: bad-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.100; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2022 Eli Heuer (https://github.com/eliheuer/GTL001) with RFN GTL001" [code: bad-notice-format]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -69,9 +53,9 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- CR 
 
-	- And CR
+	- And NULL
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -115,8 +99,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 4 | 120 | 7 | 100 | 0 |
-| 0% | 2% | 2% | 51% | 3% | 43% | 0% |
+| 0 | 2 | 4 | 120 | 7 | 102 | 0 |
+| 0% | 1% | 2% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
