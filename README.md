@@ -4,7 +4,9 @@
 
 ## About
 
-GTL001 [https://gtl.world](https://gtl.world)
+GTL001 is the first typeface released by [GTL Type Label](https://gtl.world) and was drawn by Eli Heuer.
+
+A 100/100 edition alpha release NFT was issued by GTL Type Label for this typeface, minting is live on Zora now: [https://create.zora.co/editions/0xb013e4f218760bb72f63f8d78a82b546c91897ef](https://create.zora.co/editions/0xb013e4f218760bb72f63f8d78a82b546c91897ef)
 
 ## Building
 
@@ -20,9 +22,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
+**29 July 2022. Version 0.1**
+- Alpha release.
+- NFT minting is live on Zora
 
 **27 July 2022. Version 0.1**
 - Repo setup and drawing.
