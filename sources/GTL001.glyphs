@@ -3672,7 +3672,7 @@ master01 = {
 "@MMK_R_C" = -80;
 "@MMK_R_G" = -70;
 "@MMK_R_O" = -80;
-"@MMK_R_S" = -40;
+"@MMK_R_S" = -50;
 "@MMK_R_T" = -90;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -205;
@@ -3747,6 +3747,7 @@ master01 = {
 };
 "@MMK_L_S" = {
 "@MMK_R_A" = -40;
+"@MMK_R_O" = -10;
 "@MMK_R_T" = -60;
 "@MMK_R_V" = -80;
 "@MMK_R_exclam" = -40;
