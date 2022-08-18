@@ -1,3 +1,7 @@
+# Copyright (C) 2022 Eli Heuer
+# License: GPL version 3
+# License URL: https://www.gnu.org/licenses/gpl-3.0.html
+
 # This script is meant to be run from the root level
 # of your font's git repository. For example, from a Unix terminal:
 # $ git clone my-font
