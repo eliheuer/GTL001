@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M" format="2">
+  <advance width="780"/>
+  <unicode hex="004D"/>
+  <outline>
+    <contour>
+      <point x="35" y="0" type="line"/>
+      <point x="235" y="0" type="line"/>
+      <point x="245" y="10" type="line"/>
+      <point x="245" y="340" type="line"/>
+      <point x="255" y="350" type="line"/>
+      <point x="265" y="350" type="line"/>
+      <point x="275" y="340" type="line"/>
+      <point x="275" y="10" type="line"/>
+      <point x="285" y="0" type="line"/>
+      <point x="495" y="0" type="line"/>
+      <point x="505" y="10" type="line"/>
+      <point x="505" y="340" type="line"/>
+      <point x="515" y="350" type="line"/>
+      <point x="525" y="350" type="line"/>
+      <point x="535" y="340" type="line"/>
+      <point x="535" y="10" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="745" y="0" type="line"/>
+      <point x="765" y="20" type="line"/>
+      <point x="765" y="680" type="line"/>
+      <point x="745" y="700" type="line"/>
+      <point x="725" y="700" type="line"/>
+      <point x="400" y="503" type="line"/>
+      <point x="390" y="500" type="line"/>
+      <point x="380" y="503" type="line"/>
+      <point x="55" y="700" type="line"/>
+      <point x="35" y="700" type="line"/>
+      <point x="15" y="680" type="line"/>
+      <point x="15" y="20" type="line"/>
+    </contour>
+  </outline>
+</glyph>
